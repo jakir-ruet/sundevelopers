@@ -1,0 +1,177 @@
+/*======Our Team Section=======*/
+
+#team_strength {
+    background-color: white;
+    padding: 30px 0;
+}
+
+#team_strength .team_strength-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all ease-in-out 0.4s;
+}
+
+#team_strength .team_strength-item {
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#team_strength .team_strength-item h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+#team_strength .team_strength-item p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#team_strength .team_strength-item img {
+    transition: all ease-in-out 0.4s;
+    width: 100%;
+}
+
+#team_strength .team_strength-item:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#team_strength .team_strength-item:hover .team_strength-overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#team_strength .team_strength-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+a:focus {
+    outline: none;
+}
+
+.team_strengthFilter {
+    padding: 15px 0;
+}
+
+.team_strengthFilter a {
+    margin-right: 4px;
+    color: #666;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 3px 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.team_strengthFilter a.current {
+    background: #1e1e1e;
+    border: 1px solid #1e1e1e;
+    color: #f9f9f9;
+}
+
+.team_strengthContainer {
+    border-radius: 3px;
+}
+
+img {
+    margin: 0px;
+    max-width: 100%;
+    text-align: right;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+#team {
+    background: #fff;
+    padding: 30px 0 0 0;
+}
+
+#team .member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#team .member .pic {
+    overflow: hidden;
+    text-align: center;
+}
+
+#team .member .pic img {
+    max-width: 100%;
+}
+
+#team .member .details {
+    background: #50d8af;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+}
+
+#team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+#team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+#team .member .social {
+    margin-top: 5px;
+}
+
+#team .member .social a {
+    color: #fff;
+}
+
+#team .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}
